@@ -1,0 +1,32 @@
+.logo{
+    width: 190px;
+height: 90px;
+}
+.header{
+    background-color: #fff;
+    height: 80px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navItemsContainer{
+    display: flex;
+    list-style: none;
+}
+.linkItem{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+.logOutBtn{
+    background-color: brown;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    border-width: 0px;
+    color: #fff;
+}

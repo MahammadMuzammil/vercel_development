@@ -1,0 +1,87 @@
+.login-background{
+background-color: #ffff;
+height: 100vh;
+display: flex;
+background-size: cover;
+justify-content: center;
+align-items: center;
+}
+.login-form{
+    box-shadow: 16px 16px 16px 16px #bfbfbf;
+    padding: 30px;
+    background-color: white;
+    margin-left: 100px;
+    width: 430px;
+    height: 400px;
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid goldenrod; */
+    /* align-items: center; */
+}
+.side-img{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.usernameInput{
+    height: 30px;
+    width: 90%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 23px;
+    font-family: 'Roboto';
+    padding: 10px
+}
+.usernameInput:focus{outline: none;}
+.align{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.submitBtn{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    border-width: 0px;
+    color: white;
+    background-color: #3a6bba;
+    align-self: center;
+    margin-bottom: 10px;
+}
+.login-heading{
+    font-family: 'Roboto';
+    color: #d62b22;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+label{
+    color: #3b3534;
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+.errMsg{
+    font-size: 20px;
+color: red;
+line-height: 0.1;
+margin-top: 0px;
+}
+.register{
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    border-width: 0px;
+    color: rgb(255, 255, 255);
+    background-color: orange;
+    align-self: center;
+}
+.register-img{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.alertMsg{
+    color: red;
+}

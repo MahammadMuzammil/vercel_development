@@ -1,0 +1,15 @@
+.tabBtn{
+    border-width: 0px;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.tab-item{
+margin: 10px;
+}
+.active{
+background-color: gold;
+border: 2px solid rgb(14, 85, 132);
+font-weight: bold;
+}

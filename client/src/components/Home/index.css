@@ -1,0 +1,145 @@
+.home-background{
+    background-color: #ffff;
+    height: 170vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    
+}
+.loader{
+    align-self:center;
+    margin: auto;
+}
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+.seperator{
+    color: black;
+    width: 100%;
+}
+.selected-movie-container{
+background-image: url('https://t3.ftcdn.net/jpg/05/62/25/26/360_F_562252610_Watb1rsYXzmDnCDqxA2CFEsS72o8D05E.jpg');
+background-size: cover;
+display: flex;
+justify-content: space-between;
+width: 80vw;
+margin: auto;
+padding: 20px;
+align-items: flex-end;
+
+}
+.selected-movie{
+    width: 600px;
+    height: 600px;
+
+}
+.text-container{
+    color: #ffff;
+
+}
+.category{
+    color: yellow;
+}
+.align-category{
+    display: flex;
+}
+.star{
+    width: 60px;
+}
+.review-container{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 20px;
+    width: 30px;
+align-items: center;
+padding: 10px;
+border-radius: 10px;
+}
+.tabs-container{
+    display: flex;
+    list-style-type: none;
+    align-self: center;
+    width: 95%;
+    justify-content: center;
+    
+}
+.filter{
+    display:flex;
+    background-color:black;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+.drop-downlist{
+    background-color: #333333;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Bree';
+    font-size: 20px;
+color: #FFFFFF;
+font-weight: bold;
+}
+.search-input-container{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-left: 30px;
+    height: 40px;
+    border: 3px solid goldenrod;
+}
+
+.inputElement{
+    border-width: 0px;
+    background-color: white;
+    height: 40px;
+    font-size: 25px;
+    font-family: 'Roboto';
+}
+
+.inputElement:focus{
+    outline: none;
+}
+.searchIcon{
+    height: 30px;
+    width: 30px;
+}
+.failure-img{
+    height: 400px;
+    width: 470px;
+}
+.failure-view{
+    align-self: center;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.clearBtn{
+    background-color: rgb(206, 33, 33);
+    color: #ffff;
+    border: 3px solid white;
+    font-family: 'Roboto';
+    width: 140px;
+    height: 40px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.btn-container{
+    padding: 10px;
+    margin-left: 30px;
+}
