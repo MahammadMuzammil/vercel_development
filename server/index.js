@@ -25,6 +25,8 @@ initializeDBServer()
 app.use(express.json())
 app.listen(3000)
 
+
+
 app.post('/login',async(request,response)=>{
     let {username,password} = request.body
     let selectQuery = `select * from user where name = '${username}';`
